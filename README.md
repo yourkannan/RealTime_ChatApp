@@ -74,7 +74,7 @@ dotnet run
 Then open your browser:
 
 ```
-https://localhost:5001
+https://localhost:7100
 ```
 
 ### 🧚 Test (Manual UI Testing)
