@@ -96,10 +96,20 @@ https://localhost:7100
 
 ---
 
-## 📀 UI Preview
+## 📸 UI Preview
 
-RealTime_ChatApp/doc
-/7.Sample.png
+| Register Page | Login Page |
+|---------------|------------|
+| ![Register Page](docs/1.Register_page.png) | ![Login Page](docs/2.Login_page.png) |
+
+| User Panel | Chat View |
+|------------|-----------|
+| ![Header/User List](docs/3.Header_UserList.png) | ![User Chat](docs/4.UserChat.png) |
+
+| Chat List | Sample |
+|-----------|--------|
+| ![Chat List](docs/5.ChatList.png) | ![Sample](docs/6.Sample.png) |
+
 ---
 
 ## 👨‍💼 Developer
