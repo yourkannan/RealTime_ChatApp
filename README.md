@@ -115,7 +115,7 @@ https://localhost:7100
 ## 👨‍💼 Developer
 
 **Kannadhasan A**
-GitHub: [yourusername](https://github.com/yourkanann)
+GitHub: [yourusername](https://github.com/yourkannan)
 
 ---
 
