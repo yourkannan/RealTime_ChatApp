@@ -52,6 +52,30 @@ CHAT/
 
 ---
 
+## ⚙️ How to Build the ASP.NET Core MVC Project
+
+Follow the steps below to build and run the project using the .NET CLI.
+
+---
+
+### ✅ Prerequisites
+
+Make sure the following tools are installed:
+
+- [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+- Visual Studio 2022+ (optional, with **ASP.NET and web development** workload)
+- SQL Server *(or SQLite if you're using SQLite)*
+
+---
+
+### 🧱 Build
+
+1. **Clone the Repository**
+
+```bash
+git clone https://github.com/yourusername/RealTime_ChatApp.git
+cd RealTime_ChatApp
+
 ## ⚙️ Build & Run Instructions
 
 ### 🧱 Build
