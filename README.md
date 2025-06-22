@@ -72,7 +72,7 @@ dotnet run
 ```
 
 📦 Required NuGet Packages
-
+---
 Make sure the following packages are installed (via *.csproj or NuGet):
 
 Microsoft.AspNetCore.Identity.EntityFrameworkCore (v8.0.0)
@@ -82,7 +82,7 @@ Microsoft.EntityFrameworkCore.SqlServer (v8.0.0)
 Microsoft.EntityFrameworkCore.Sqlite (v8.0.0) (optional for SQLite support)
 
 Microsoft.EntityFrameworkCore.Tools (v8.0.0)
-
+---
 ```
 https://localhost:7100
 ```
