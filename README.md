@@ -77,15 +77,11 @@ https://localhost:7100
 
 📦 Required NuGet Packages
 ---
-Make sure the following packages are installed (via *.csproj or NuGet):
-
-Microsoft.AspNetCore.Identity.EntityFrameworkCore (v8.0.0)
-
-Microsoft.EntityFrameworkCore.SqlServer (v8.0.0)
-
-Microsoft.EntityFrameworkCore.Sqlite (v8.0.0) (optional for SQLite support)
-
-Microsoft.EntityFrameworkCore.Tools (v8.0.0)
+1. Make sure the following packages are installed (via *.csproj or NuGet):
+2. Microsoft.AspNetCore.Identity.EntityFrameworkCore (v8.0.0)
+3. Microsoft.EntityFrameworkCore.SqlServer (v8.0.0)
+4. Microsoft.EntityFrameworkCore.Sqlite (v8.0.0) (optional for SQLite support)
+5. Microsoft.EntityFrameworkCore.Tools (v8.0.0)
 
 
 ### 🧚 Test (Manual UI Testing)
