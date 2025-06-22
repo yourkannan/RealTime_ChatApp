@@ -82,7 +82,8 @@ Microsoft.EntityFrameworkCore.SqlServer (v8.0.0)
 Microsoft.EntityFrameworkCore.Sqlite (v8.0.0) (optional for SQLite support)
 
 Microsoft.EntityFrameworkCore.Tools (v8.0.0)
----
+
+
 ```
 https://localhost:7100
 ```
