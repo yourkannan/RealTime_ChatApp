@@ -71,6 +71,10 @@ dotnet build
 dotnet run
 ```
 
+```
+https://localhost:7100
+```
+
 📦 Required NuGet Packages
 ---
 Make sure the following packages are installed (via *.csproj or NuGet):
@@ -83,10 +87,6 @@ Microsoft.EntityFrameworkCore.Sqlite (v8.0.0) (optional for SQLite support)
 
 Microsoft.EntityFrameworkCore.Tools (v8.0.0)
 
-
-```
-https://localhost:7100
-```
 
 ### 🧚 Test (Manual UI Testing)
 
