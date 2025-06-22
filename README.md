@@ -98,8 +98,7 @@ https://localhost:5001
 
 ## 📀 UI Preview
 
-![Chat Screenshot](docs/chat-screenshot.png)
-
+![Chat Screenshot](docs/1.Register_page)
 ---
 
 ## 👨‍💼 Developer
