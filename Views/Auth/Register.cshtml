@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Register";
+}
+
+<style>
+    body {
+     
+        background: url('/images/register.jpg') no-repeat center center fixed;
+        background-size: cover;
+        font-family: 'Segoe UI', sans-serif;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .register-card {
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(12px);
+        padding: 2rem 2.5rem;
+        border-radius: 20px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        width: 100%;
+        max-width: 400px;
+    }
+
+        .register-card h2 {
+            text-align: center;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+        }
+
+    .btn-register {
+        width: 100%;
+        font-weight: 600;
+        box-shadow: 0 5px 12px rgba(40, 167, 69, 0.4);
+    }
+
+    .alert {
+        text-align: center;
+    }
+</style>
+
+<div class="register-card">
+    <h2>@ViewData["Title"]</h2>
+    <form method="post" asp-controller="Auth" asp-action="Register">
+        @Html.AntiForgeryToken()
+        <div class="mb-3">
+            <label class="form-label">Username</label>
+            <input name="username" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Password</label>
+            <input name="password" type="password" class="form-control" required />
+        </div>
+        <button type="submit" class="btn btn-success btn-register">Register</button>
+    </form>
+
+    @if (ViewBag.Error != null)
+    {
+        <div class="alert alert-danger mt-3">@ViewBag.Error</div>
+    }
+</div>

@@ -1,0 +1,150 @@
+﻿@{
+    ViewData["Title"] = "Login";
+    Layout = "_Layout";
+}
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Segoe UI', sans-serif;
+        background: url('/images/loginbackground.jpg') no-repeat center center fixed;
+        background-size: cover;
+        position: relative;
+    }
+
+    /* Animated chat icons */
+    .icon-bubble {
+        position: absolute;
+        font-size: 28px;
+        opacity: 0.8;
+        animation: floatIcon 12s linear infinite;
+        z-index: 1;
+    }
+
+    @@keyframes floatIcon {
+        0%
+
+    {
+        transform: translateY(100vh) scale(1);
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-10vh) scale(1.2);
+        opacity: 0;
+    }
+
+    }
+
+    /* Different starting positions and delays */
+    .icon1 {
+        left: 5%;
+        animation-delay: 0s;
+    }
+
+    .icon2 {
+        left: 20%;
+        animation-delay: 2s;
+    }
+
+    .icon3 {
+        left: 35%;
+        animation-delay: 4s;
+    }
+
+    .icon4 {
+        left: 50%;
+        animation-delay: 6s;
+    }
+
+    .icon5 {
+        left: 65%;
+        animation-delay: 8s;
+    }
+
+    .icon6 {
+        left: 80%;
+        animation-delay: 10s;
+    }
+
+    /* Login card styling */
+    .login-card {
+        background: rgba(255, 255, 255, 0.95);
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        width: 100%;
+        max-width: 400px;
+        backdrop-filter: blur(8px);
+        z-index: 10;
+        position: relative;
+    }
+
+        .login-card h2 {
+            margin-bottom: 20px;
+            font-weight: bold;
+            text-align: center;
+            color: #2c3e50;
+        }
+
+    .form-label {
+        font-weight: 500;
+    }
+
+    .btn-success {
+        background-color: #2ecc71;
+        border: none;
+    }
+
+        .btn-success:hover {
+            background-color: #27ae60;
+        }
+
+    .alert {
+        font-size: 0.9rem;
+    }
+</style>
+
+<!-- Animated Icon Bubbles (Emojis) -->
+<div class="icon-bubble icon1">💬</div>
+<div class="icon-bubble icon2">🗨️</div>
+<div class="icon-bubble icon3">📱</div>
+<div class="icon-bubble icon4">🤖</div>
+<div class="icon-bubble icon5">📨</div>
+<div class="icon-bubble icon6">💡</div>
+
+<!-- Login Card -->
+<div class="login-card">
+    <h2>@ViewData["Title"]</h2>
+    <form method="post" asp-controller="Auth" asp-action="Login">
+        @Html.AntiForgeryToken()
+        <div class="mb-3">
+            <label class="form-label">Username</label>
+            <input name="username" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Password</label>
+            <input name="password" type="password" class="form-control" required />
+        </div>
+        <button type="submit" class="btn btn-success w-100">Login</button>
+    </form>
+
+    @if (ViewBag.Error != null)
+    {
+        <div class="alert alert-danger mt-3 text-center">@ViewBag.Error</div>
+    }
+</div>
