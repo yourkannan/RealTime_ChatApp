@@ -102,15 +102,6 @@ https://localhost:5001
 
 ---
 
-## 📊 Diagrams & Design Docs
-
-Please refer to:
-
-* [`/docs/diagram.png`](docs/diagram.png) - High-level architecture
-* [`/docs/architecture.md`](docs/architecture.md) - Design explanation (≤500 words)
-
----
-
 ## 👨‍💼 Developer
 
 **Kannadhasan A**
