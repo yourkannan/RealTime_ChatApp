@@ -71,6 +71,18 @@ dotnet build
 dotnet run
 ```
 
+Required NuGet Packages
+
+These packages must be installed (included in .csproj or installed via NuGet):
+
+Microsoft.AspNetCore.Identity.EntityFrameworkCore (v8.0.0)
+
+Microsoft.EntityFrameworkCore.SqlServer (v8.0.0)
+
+Microsoft.EntityFrameworkCore.Sqlite (v8.0.0) (optional for SQLite support)
+
+Microsoft.EntityFrameworkCore.Tools (v8.0.0)
+
 Then open your browser:
 
 ```
