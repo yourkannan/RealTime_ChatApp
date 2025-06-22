@@ -100,15 +100,15 @@ https://localhost:7100
 
 | Register Page | Login Page |
 |---------------|------------|
-| ![Register Page](docs/1.Register_page.png) | ![Login Page](docs/2.Login_page.png) |
+| ![Register Page](doc/1.Register_page.png) | ![Login Page](doc/2.Login_page.png) |
 
 | User Panel | Chat View |
 |------------|-----------|
-| ![Header/User List](docs/3.Header_UserList.png) | ![User Chat](docs/4.UserChat.png) |
+| ![Header/User List](doc/3.Header_UserList.png) | ![User Chat](doc/4.UserChat.png) |
 
 | Chat List | Sample |
 |-----------|--------|
-| ![Chat List](docs/5.ChatList.png) | ![Sample](docs/6.Sample.png) |
+| ![Chat List](doc/5.ChatList.png) | ![Sample](doc/6.Sample.png) |
 
 ---
 
