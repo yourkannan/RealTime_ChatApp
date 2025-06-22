@@ -77,7 +77,7 @@ https://localhost:7100
 
 📦 Required NuGet Packages
 ---
-1. Make sure the following packages are installed (via *.csproj or NuGet):
+ Make sure the following packages are installed (via *.csproj or NuGet):
 2. Microsoft.AspNetCore.Identity.EntityFrameworkCore (v8.0.0)
 3. Microsoft.EntityFrameworkCore.SqlServer (v8.0.0)
 4. Microsoft.EntityFrameworkCore.Sqlite (v8.0.0) (optional for SQLite support)
